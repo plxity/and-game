@@ -1,7 +1,7 @@
-"use strict";
+'use strict';
 
-Object.defineProperty(exports, "__esModule", {
-  value: true
+Object.defineProperty(exports, '__esModule', {
+  value: true,
 });
 exports.default = andGame;
 
@@ -16,7 +16,9 @@ function andGame(elements, useSymbol = false) {
     if (i === elLength - 1 && i != 0) {
       result += `${useSymbol ? ' & ' : 'and '}${item}.`;
     } else {
-      result += `${item}${i === elLength - 1 ? '.' : i === elLength - 2 ? '' : ', '}`;
+      result += `${item}${
+        i === elLength - 1 ? '.' : i === elLength - 2 ? '' : ', '
+      }`;
     }
   });
   return result;
