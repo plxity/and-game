@@ -1,5 +1,5 @@
 {
-  "name": "and-game",
+  "name": "its-and-game",
   "version": "0.0.1",
   "description": "Get 'and' or '&' for an array of items.",
   "main": "index.js",
