@@ -9,7 +9,7 @@ andGame(['idli', 'sambhar', 'chutney']);
 idli, sambhar and chutney.
 
 
-// Input 
+// Input - with second paramter true which will use '&' instead of 'and'
 andGame(['idli', 'sambhar', 'chutney'], true);
 
 // Output
