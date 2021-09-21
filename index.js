@@ -17,7 +17,7 @@ function andGame(elements, useSymbol = false) {
       result += `${useSymbol ? ' & ' : 'and '}${item}.`;
     } else {
       result += `${item}${
-        i === elLength - 1 ? '.' : i === elLength - 2 ? '' : ', '
+        i === elLength - 1 ? '.' : i === elLength - 2 ? ' ' : ', '
       }`;
     }
   });
