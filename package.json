@@ -1,6 +1,6 @@
 {
   "name": "its-and-game",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Get 'and' or '&' for an array of items.",
   "main": "index.js",
   "scripts": {
